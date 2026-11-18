@@ -1,0 +1,8 @@
+[project]
+name = "folder-crypt"
+version = "1.0.0"
+description = "Recursive folder encryption/decryption (AES-256-GCM + Scrypt)"
+requires-python = ">=3.9"
+dependencies = [
+    "cryptography>=42.0.0",
+]
